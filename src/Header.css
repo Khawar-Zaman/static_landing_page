@@ -1,0 +1,38 @@
+/* src/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  .header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .header-image {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--secondary-color);
+  }
